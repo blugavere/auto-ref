@@ -9,10 +9,22 @@
     "url": "http://benlugavere.com"
   },
   "files": [
-    "dist"
+    "index.js"
   ],
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "auto",
+    "bind",
+    "class",
+    "dependencies",
+    "dependency injection",
+    "automatically",
+    "prototype",
+    "instance",
+    "function",
+    "this",
+    "self"
+  ],
   "devDependencies": {
     "clarify": "^2.0.0",
     "del": "^2.0.2",
@@ -37,6 +49,6 @@
     "test:watch": "gulp watch"
   },
   "dependencies": {
-    "get-parameter-names": "^0.3.0"
+    "get-parameter-names": "0.3.0"
   }
 }
