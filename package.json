@@ -28,10 +28,9 @@
     "gulp-mocha": "^3.0.1",
     "gulp-nsp": "^2.1.0",
     "gulp-plumber": "^1.0.0",
-    "isparta": "^4.0.0",
-    "sinon": "^1.17.6"
+    "isparta": "^4.0.0"
   },
-  "repository": "giddyinc/mongoose-to-swagger",
+  "repository": "blugavere/auto-ref",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp",
