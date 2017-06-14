@@ -1,7 +1,6 @@
 'use strict';
 
 const argList = require('get-parameter-names');
-// const argList = require('args-list');
 
 const defaults = {
   enumerable: true
