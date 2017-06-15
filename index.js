@@ -8,9 +8,11 @@ const defaults = {
 
 const autoRef = (self, args, options) => {
   options = Object.assign({}, defaults, options);
-  const names = argList(self.constructor);
+  if (!options.names) {
+    options.names = argList(self.constructor);
+  }
   Object.keys(args).forEach((key, i) => {
-    Object.defineProperty(self, names[i], {
+    Object.defineProperty(self, options.names[i], {
       value: args[key],
       enumerable: options.enumerable,
       configurable: true,
