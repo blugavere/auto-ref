@@ -1,6 +1,6 @@
 {
   "name": "auto-ref",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically create references to constructor arguments.",
   "homepage": "",
   "author": {
