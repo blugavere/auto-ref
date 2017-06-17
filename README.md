@@ -18,6 +18,15 @@ class Service {
   }
 }
 
+// or, with the third options arg
+
+class Service {
+  constructor() {
+    autoRef(this, arguments, { names: ['repo', 'baz'] });
+  }
+}
+
+
 const service = new Service('foo', 'bar');
 
 console.log(service.repo); // => 'foo'
