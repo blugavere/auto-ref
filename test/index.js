@@ -6,6 +6,11 @@ const assert = require('assert');
 const autoRef = require('../index.js');
 
 class Cat {
+  static get foo() {
+    return [
+      'bar'
+    ];
+  }
   constructor(paws, claws, eyes) {
     this.foo = 'bar';
     autoRef(this, arguments, {

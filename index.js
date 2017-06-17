@@ -1,6 +1,6 @@
 'use strict';
 
-const argList = require('get-parameter-names');
+const argList = require('@captemulation/get-parameter-names');
 
 const defaults = {
   enumerable: true

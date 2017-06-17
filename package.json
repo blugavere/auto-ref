@@ -49,6 +49,6 @@
     "test:watch": "gulp watch"
   },
   "dependencies": {
-    "get-parameter-names": "0.3.0"
+    "@captemulation/get-parameter-names": "1.2.0"
   }
 }
