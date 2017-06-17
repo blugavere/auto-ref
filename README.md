@@ -13,10 +13,15 @@ $ npm install --save auto-ref
 const autoRef = require('auto-ref');
 
 class Service {
-  constructor(repo) { // eslint-disable-line no-unused-vars
+  constructor(repo, baz) { // eslint-disable-line no-unused-vars
     autoRef(this, arguments);
   }
 }
+
+const service = new Service('foo', 'bar');
+
+console.log(service.repo); // => 'foo'
+console.log(service.baz); // => 'bar'
 
 ```
 ## License
